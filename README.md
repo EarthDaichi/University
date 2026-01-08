@@ -16,4 +16,4 @@ I'd like to Record my progression so I'll post my work here.
 And for share it with my friends also.
 
 # A friendly reminder for my friend who come here to copy
-  some code of mine is beyond from what our teacher teach so be careful to copy, or they will know you copy me !!
+  some code of mine is beyond from what our teacher teach so be careful to copy, or they will know that you copy me !!
