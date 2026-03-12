@@ -10,10 +10,9 @@ class MATRIX:
         self._listD = listD
 class MultiplyMatrix(MATRIX):
     def _MultiplyMatrix(self):
-        for i in range(len(self._listA)):
-            for j in range (len(self._listB[0])):
-                for k in range(len(self._listB)):
-                    self._listC[i][j] += self._listA[i][k] * self._listB[k][j]
+        self._listA = np.array(self._listA)
+        self._listB = np.array(self._listB)
+        self._listC = self._listA @ self._listB
         for r in self._listC:
             print(r)
 class Matrix_Det(MATRIX):
