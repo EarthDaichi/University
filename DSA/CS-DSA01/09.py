@@ -1,0 +1,10 @@
+import random
+
+data = [random.randint(1,100) for i in range(8)]
+print("Data display before push")
+print("Data : ", data)
+
+data.append(15); data.append(67)
+
+print("Data display after push")
+print("Data : ", data)
